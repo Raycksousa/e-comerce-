@@ -1,1 +1,1 @@
-# e-comerce-Criando ecomerce de semijoias para aperfeicoamento de java,html,css
+# e-comerce-Criando e-comerce de semijoias para aperfeicoamento de java,html,css
