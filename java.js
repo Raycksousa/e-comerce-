@@ -16,7 +16,42 @@ const itens=[
       nome:'anel',
       img:'image2.jpeg',
       quantidade:0,
-    }
+    },
+  
+  {
+    id:0,
+    nome:'brinco',
+    img:'image0.jpeg',
+    quantidade:0,
+    },
+    {
+      id:1,
+      nome:'colar',
+      img:'image1.jpeg',
+      quantidade:0,
+    },
+    {
+      id:2,
+      nome:'anel',
+      img:'image2.jpeg',
+      quantidade:0,
+    },
+    
+      {
+      id:0,
+      nome:'brinco',
+      img:'image0.jpeg',
+      quantidade:0,
+      },
+      {
+        id:1,
+        nome:'colar',
+        img:'image1.jpeg',
+        quantidade:0,
+      }
+     
+        
+    
   ]
 
 
@@ -27,7 +62,7 @@ const itens=[
         <div class="produto-single">
             <img src="`+val.img+`" />
             <p>`+val.nome+`</p>
-            <a key="`+val.id+`" href="#">adicionar ao carrinho!<a/>
+            <a key="`+val.id+`" href="#">Adicionar ao Carrinho!<a/>
          </div>       
 
 
@@ -45,7 +80,12 @@ const itens=[
         itens.map((val)=>{
         if(val.quantidade > 0){
         containercarrinho.innerHTML+=`
-        <p>`+val.nome+`     |quantidade:`+val.quantidade+`</p>
+        <div class="info-single-chekout">
+        <p style="float:left;">produto:`+val.nome+`</p>
+        <p style="float:right;">Quantidade:`+val.quantidade+`</p>
+        <div style="clear:both"></div>
+        
+        </div>
 
 
         
