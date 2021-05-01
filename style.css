@@ -6,36 +6,59 @@
 
 #produtos
 {
-    max-width: 500px;
+    max-width: 3000px;
     margin: 0 auto;
-    padding:0 25%;
+    padding: 0 5%;
+    flex-wrap: wrap;
     display: flex;
 }
+
+
 #carrinho
 {
     max-width: 900px;
     margin: 0 auto;
-    padding:0 25%;
+    padding:0 35%;
     display: block;
-
+    
 }
 .produto-single
 {
-    width: 32%;
+    width: 22%;
     margin-right:1% ;
-    border: 1px solid #ccc;
+    border: 3px solid rgb(7, 7, 7);
     margin: 20px 0;
 }
 .produto-single img{
     max-width: 100%;
 }
-
+.produto-single p{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.produto-single a
+{
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  background-color: rgb(217, 8, 245);
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  font-size: 15px;
+  font-style:oblique;
+}
 
 
 h2{
     background-color: blueviolet;
     padding: 10px 0;
     text-align: center;
-    color: white;
+    color: #ffffff;
+}
+
+.info-single-checkout{
+    border-bottom: 2px solid dotted;
+    padding: 10px 0;
 }
 
